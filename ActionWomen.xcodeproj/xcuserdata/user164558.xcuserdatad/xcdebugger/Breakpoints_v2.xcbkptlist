@@ -18,6 +18,38 @@
             endingLineNumber = "20"
             landmarkName = "unknown"
             landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "D5402240-164D-4C67-AD0D-A394E5CDD048 - 1a3c8fbed1abc57c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ActionWomen.ContentView.init(test: Swift.Array&lt;ActionWomen.Remark&gt;) -&gt; ActionWomen.ContentView"
+                  moduleName = "ActionWomen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user164558/Desktop/ActionWomen/ActionWomen/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "D5402240-164D-4C67-AD0D-A394E5CDD048 - 7fb18e56a7d84855"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ActionWomen.ContentView.init() -&gt; ActionWomen.ContentView"
+                  moduleName = "ActionWomen"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user164558/Desktop/ActionWomen/ActionWomen/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "18">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

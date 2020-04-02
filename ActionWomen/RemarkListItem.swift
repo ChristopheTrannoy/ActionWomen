@@ -21,27 +21,27 @@ struct RemarkListItem: View {
                         .font(.title)
                     
                     Spacer()
-                    
                     Image(systemName: "star.fill")
-//                        .font(Font.system(.title))
+                        .font(Font.system(.title))
+                        .foregroundColor(.yellow)
                     
                 }
             }
             
-//            Group {
-//                HStack {
-//                    VStack {
-//                        Text("Posted by ")
-//                            .font(.subheadline)
-//                            .foregroundColor(Color.gray)
-//                        Text(verbatim: "\(remark.user.username)")
-//                    }
-//                    Spacer()
-//                    
-//                }
-//                .padding([.bottom])
-//                
-//            }
+            Group {
+                HStack {
+                    VStack {
+                        Text("Posted by ")
+                            .font(.subheadline)
+                            .foregroundColor(Color.gray)
+                        Text(verbatim: "\(remark.user.username)")
+                    }
+                    Spacer()
+                    
+                }
+                .padding([.bottom])
+                
+            }
             
             Group {
                 HStack {
@@ -54,9 +54,7 @@ struct RemarkListItem: View {
                 .padding([.bottom])
                 
                 HStack{
-                    /**
-                     TODO : CONTENT IN JSON
-                     */
+                  
                     Text(remark.content)
                         .font(.body)
                     Spacer()

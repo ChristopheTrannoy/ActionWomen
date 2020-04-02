@@ -19,12 +19,12 @@ import SwiftyRequest
  */
 
 struct ContentView: View {
-    
-    
-    @State var listR : [Remark] = [Remark()]
-    let test = ListRemark.fetchAll(listR: listR)
+    @State var test : [Remark] = []
+    private var listR : [Remark] {return ListRemark.fetchAll({result in
+        print(result)})}
     
     var body: some View {
+        
         VStack {
             VStack{
                 Text("ActionWomen")
@@ -52,9 +52,12 @@ struct ContentView: View {
                     [RemarkListItem(id: "1"),
                     RemarkListItem(id: "2"),
                     RemarkListItem(id: "3")]
-                )*/
-                RemarkList(listR : listR)
+                 )*/
+                if listR.count>0 {
+                RemarkList(listR: listR)
+                }
             }
+            
             Spacer()
             Divider()
             HStack {
