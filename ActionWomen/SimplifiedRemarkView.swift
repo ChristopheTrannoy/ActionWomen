@@ -10,7 +10,7 @@ import SwiftUI
 
 struct SimplifiedRemarkView: View, Identifiable {
     
-    var id: String
+    var id : Int
     var body: some View {
         
         VStack {
@@ -18,7 +18,7 @@ struct SimplifiedRemarkView: View, Identifiable {
                 Text("Remark #")
                     .font(.title)
                     .fontWeight(.bold)
-                Text(id)
+                Text("\(id)")
                     .font(.title)
                     .fontWeight(.bold)
                 Spacer()
@@ -29,7 +29,7 @@ struct SimplifiedRemarkView: View, Identifiable {
             }
             .padding([.bottom])
             HStack {
-                Text("Posted by Pepito 2hrs ago")
+                Text("Posted by Pépito 2 hours ago")
                     .font(.body)
                 Spacer()
             }
@@ -47,7 +47,6 @@ struct SimplifiedRemarkView: View, Identifiable {
 
 struct SimplifiedRemarkView_Previews: PreviewProvider {
     static var previews: some View {
-        SimplifiedRemarkView(id: "1")
-            .previewLayout(.fixed(width: 300, height:130))
+        SimplifiedRemarkView(id : 1)
     }
 }

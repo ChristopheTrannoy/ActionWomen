@@ -26,9 +26,9 @@ struct HomePageCarousel: View {
 struct HomePageCarousel_Previews: PreviewProvider {
     static var previews: some View {
         HomePageCarousel(remarks:
-            [SimplifiedRemarkView(id: "1"),
-             SimplifiedRemarkView(id: "2"),
-             SimplifiedRemarkView(id: "3")])
+            [SimplifiedRemarkView(id: 1),
+             SimplifiedRemarkView(id: 2),
+             SimplifiedRemarkView(id: 3)])
             .previewLayout(.fixed(width: 300, height:130))
     }
 }

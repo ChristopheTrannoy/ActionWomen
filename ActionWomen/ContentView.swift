@@ -33,8 +33,14 @@ struct ContentView: View {
                     .edgesIgnoringSafeArea(.top)
             }
             .padding()
+            NavigationView{
+                VStack{
+                    NavigationLink(destination : PostRemarkView()){
+                        PostPublicationBar()
+                    }
+                }
+            }
             
-            PostPublicationBar()
             VStack {
                 /**
                  CAROUSEL
